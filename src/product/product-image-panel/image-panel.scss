@@ -1,11 +1,11 @@
 @import '../../util/mixins';
 
-#panel-container{
+#image-panel-container{
     display: flex;
     justify-content: center;
     width: 50%;
 }
-#product-images-container{
+#inner-image-container{
     display: flex;
     width: 450px;
     flex-direction: column;

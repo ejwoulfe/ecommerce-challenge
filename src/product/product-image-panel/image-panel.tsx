@@ -34,8 +34,8 @@ function ImagePanel() {
 
 
     return (
-        <div id="panel-container">
-            <div id="product-images-container">
+        <div id="image-panel-container">
+            <div id="inner-image-container">
                 <div id="main-image-container">
                     <img id="main-image" src={productsArray[currentImgIndex]} alt="product preview" />
                 </div>
