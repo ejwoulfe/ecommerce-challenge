@@ -1,0 +1,38 @@
+@import '../../util/mixins';
+
+#panel-container{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+#product-images-container{
+    display: flex;
+    width: 450px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+
+}
+#main-image{
+    width:450px;
+    height: 450px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+#thumbnail-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+
+}
+
+.product-thumbnail{
+    @include thumbnail;
+}
+
+
+.product-thumbnail-current{
+    opacity: 0.2;
+    @include thumbnail;
+  
+}
